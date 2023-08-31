@@ -8,7 +8,6 @@ from langchain.agents.agent_types import AgentType
 from langchain.agents import create_csv_agent
 
 import os
-#os.environ['OPENAI_API_KEY'] = "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"
 import pandas as pd
 
 # Create the Streamlit app
