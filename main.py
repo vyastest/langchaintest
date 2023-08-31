@@ -1,4 +1,6 @@
 import streamlit as st
+
+!pip install openai -q
 import openai
 openai.api_key= "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"
 from langchain.llms import OpenAI
