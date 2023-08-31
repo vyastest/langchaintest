@@ -1,7 +1,7 @@
 import streamlit as st
 
 import openai
-openai.api_key= "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"
+openai.api_key = st.secrets["OPENAI_API_KEY"]
 from langchain.llms import OpenAI
 from langchain.chat_models import ChatOpenAI
 from langchain.agents.agent_types import AgentType
